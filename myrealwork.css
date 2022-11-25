@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    color: black;
+    font-family: 'open sans';
+    font-weight: 700;
+}
+.nav li {
+    float: right;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    width: 150px;
+}
+.mainheader {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: white;
+    height: 60px;
+}
+.bgimage {
+    background-image: url('./img/picture.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+
+}
+#bgtext {
+color: white;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+padding-top: 250px;
+}
+
+
+
+.first-section img {
+    width: 25%;
+    float: right;
+    max-height: 250px;
+    min-height: 250px;
+    object-fit: cover;
+   
+}
+ section {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section a {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.col2 img {
+    width: 400px;
+}
+.two-cols {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 850px;
+    margin: auto auto;
+    column-gap: 0;
+}
+.col1 a {
+font-size: 17px;
+display: block;
+margin-top: 80px;
+padding: 0 30px 0 30px;
+}
+.col1 {
+    background-color: darkcyan;
+}
+footer {
+    margin-top: 80px;
+    background-color: rgb(218, 216, 216);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.ftsection {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1200px;
+    margin: auto auto;
+}
+.ft1 li {
+    list-style: none;
+    text-align: left;
+}
+.ft1 li a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 2.2;
+    color: black;
+}
+.ft1 li:hover {
+    background-color: aqua;
+}
